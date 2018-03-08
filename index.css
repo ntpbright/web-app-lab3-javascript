@@ -26,7 +26,7 @@ html, .container{
 }
 
 body{
-    background-image: url(image/bg.gif);
+    background-image: url(image/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0px;
@@ -41,10 +41,9 @@ body{
     text-align: center;
     size: 150%;
     font-size: 120px;
-    text-shadow: 4px 3px #F7CAC9;
+    text-shadow: 4px 3px rgb(39, 39, 39);
+    color:   #ffffff;
     text-transform: capitalize;
-    /*color: #92A8D1;*/
-    color:   #f4eade;
 }
 
 .home #mid{
@@ -53,9 +52,8 @@ body{
     font-size: 58px;
     border: 2px solid;
     padding: 5rem 8rem;
-    text-shadow: 4px 3px #F7CAC9;
     text-transform: capitalize;
-    /*color: #92A8D1;*/
+    text-shadow: 4px 3px rgb(39, 39, 39);
     color:   #ffffff;
 }
 
@@ -72,8 +70,8 @@ body{
 }
 .btn:hover{
     background-color: rgba(255, 255, 255, 0);
-    border: 2px solid black;
-    color: black;
+    border: 2px solid cyan;
+    color: cyan;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
@@ -105,8 +103,8 @@ body{
 
 .btn-quiz#a:hover, .btn-quiz#b:hover, .btn-quiz#c:hover, .btn-quiz#d:hover{ 
     background-color: rgba(255, 255, 255, 0);
-    border: 2px solid black;
-    color: black;
+    border: 2px solid cyan;
+    color: cyan;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
@@ -129,36 +127,27 @@ body{
 
 .result #scoretxt{
     font-size: 100px;
-    text-shadow: 3px 2px #F7CAC9;
-    color: #f4eade;
+    text-shadow: 4px 3px rgb(39, 39, 39);
+    color:   #ffffff;
 }
 
 .result #finalscore{
     font-size: 80px;
-    text-shadow: 3px 2px #F7CAC9;
-    color: #f4eade;			
+    text-shadow: 4px 3px rgb(39, 39, 39);
+    color:   #ffffff;
 }
-
-
 .result #new{
-    background-color:  #F7CAC9;
-    color: #33334d;
+    background-color:  rgba(255, 255, 255, 0);
+    border: 2px solid white;
+    color: white;
     padding: 15px 32px;
     text-align: center;
     display: inline-block;
     font-size: 18px;
     cursor: pointer;
-    border-radius: 10px;
     width: 300px;
 }
 
-.quiz #time {
-    /*height: 50px;
-    width: 50px;
-    background-color: #FFFFFF;
-    border-radius: 50%;
-    display: flex;*/
-}
 p#time{
     color:white;
 }
