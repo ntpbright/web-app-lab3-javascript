@@ -19,6 +19,14 @@
     align-items: center!important;
 }
 
+.flex-column {
+    -webkit-box-orient: vertical!important;
+    -webkit-box-direction: normal!important;
+    -webkit-flex-direction: column!important;
+    -ms-flex-direction: column!important;
+    flex-direction: column!important;
+}
+
 html, .container{
     width: 100%;
     height: 100%;
@@ -194,5 +202,30 @@ p#q{
         text-align: center;
         font-size: 40px;
         width: 95%;
+    }
+    .result #finalscore{
+        font-size: 65px;
+        text-shadow: 4px 3px rgb(39, 39, 39);
+        color:   #ffffff;
+        margin: 20px 0px; 
+    }
+    .result #scoretxt{
+        font-size: 75px;
+        text-shadow: 4px 3px rgb(39, 39, 39);
+        color:   #ffffff;
+        margin: 20px 0px; 
+        margin-top: 150px;
+    }
+    .result #new{
+        background-color:  rgba(255, 255, 255, 0);
+        border: 2px solid white;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 18px;
+        cursor: pointer;
+        width: 300px;
+        margin: 10px 20px 0px 0px;
     }
 }
