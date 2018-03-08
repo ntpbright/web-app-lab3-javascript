@@ -7,7 +7,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Prompt|Roboto+Condensed" rel="stylesheet"> 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	
-	<title>Seventeen Quiz &hearts;</title>
+	<title>Car Quiz &hearts;</title>
 	<link rel="stylesheet" type="text/css" href="index.css">
 
 </head>
@@ -18,22 +18,24 @@
 				Quiz
 			</div>
 			<div id="mid">
-				GTR FC
+				About name of model car.
 			</div>
 			<div class = "d-flex justify-content-around ">
+				<button class = "btn" id="button5" onclick="hidehome5()"> 5 Question</button>
 				<button class = "btn" id="button10" onclick="hidehome10()"> 10 Question</button>
 				<button class = "btn" id="button20" onclick="hidehome20()"> 20 Question</button>
 			</div>
 		</div>
 		<div class="quiz" id="two">
 			<p id="time"></p>
+			<p id="order"></p>
 			<p id="image"></p>
 			<p id="q"></p>
-			<div class = "btn-quiz">
-				<button id="a" onclick="clicka()" > a</button>
-				<button id="b" onclick="clickb()" > b</button>
-				<button id="c" onclick="clickc()" > c</button>
-				<button id="d" onclick="clickd()" > d</button>
+			<div class = "btn-quiz-container">
+				<button class ="btn-quiz" id="a" onclick="clicka()" > a</button>
+				<button class ="btn-quiz" id="b" onclick="clickb()" > b</button>
+				<button class ="btn-quiz" id="c" onclick="clickc()" > c</button>
+				<button class ="btn-quiz" id="d" onclick="clickd()" > d</button>
 			</div>
 		</div>
 		<div class="result" id="three">

@@ -1,4 +1,4 @@
-var score = 0, num = 0, count = 0, t;
+var score = 0, num = 0, count = 0, t, order = 1;
 var questions;
 list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
 var selected = [];
@@ -27,6 +27,7 @@ function showhome() {
 
 function hidehome5() {
     num = 5;
+    order = 1;
     document.getElementById("one").style.display = "none";
     document.getElementById("two").style.display = "block";
     change();
@@ -35,6 +36,7 @@ function hidehome5() {
 
 function hidehome10() {
     num = 10;
+    order = 1;
     document.getElementById("one").style.display = "none";
     document.getElementById("two").style.display = "block";
     change();
@@ -42,7 +44,8 @@ function hidehome10() {
 }
 
 function hidehome15() {
-    num = 20;
+    num = 15;
+    order = 1;
     document.getElementById("one").style.display = "none";
     document.getElementById("two").style.display = "block";
     change();
@@ -104,15 +107,20 @@ function change() {
     document.getElementById("d").innerHTML = questions[list[i]].d;
     count++;
 
+    document.getElementById("order").innerHTML = order;
+    order++;
     answers.push(questions[list[i]].ans);
 
     remove(list, list[i]);
 
 
-    if (list.length <= 1 && num == 20){
+    if (list.length <= 0 && num == 15){
         calscore();
     }
-    if (list.length <= 11 && num == 10){
+    if (list.length <= 5 && num == 10){
+        calscore();
+    }
+    if (list.length <= 10 && num == 5){
         calscore();
     }
 } 

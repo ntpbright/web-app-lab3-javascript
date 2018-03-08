@@ -58,7 +58,7 @@
 	"img": "<img src='image/8.jpg' >",
 	"q": "Which name of this car model?",
 	"a" : "BENZ AMG CLA",
-	"b" : "BENZ AMG GT",
+	"b" : "BENZ AMG GTR",
 	"c" : "BENZ AMG CLS",
 	"d" : "BENZ AMG SLC",
 	"ans": "b"
