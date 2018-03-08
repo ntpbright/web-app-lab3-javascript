@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head >
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	<link href="https://fonts.googleapis.com/css?family=Prompt|Roboto+Condensed" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<title>Seventeen Quiz &hearts;</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+</head>
+<body class = "">
+	<div class = "container d-flex justify-content-around align-items-center">
+		<div class="home" id="one">
+			<div id="header">
+				Quiz
+			</div>
+			<div id="mid">
+				GTR FC
+			</div>
+			<div class = "d-flex justify-content-around ">
+				<button class = "btn" id="button10" onclick="hidehome10()"> 10 Question</button>
+				<button class = "btn" id="button20" onclick="hidehome20()"> 20 Question</button>
+			</div>
+		</div>
+		<div class="quiz" id="two">
+			<p id="time"></p>
+			<p id="image"></p>
+			<p id="q"></p>
+			<div class = "btn-quiz">
+				<button id="a" onclick="clicka()" > a</button>
+				<button id="b" onclick="clickb()" > b</button>
+				<button id="c" onclick="clickc()" > c</button>
+				<button id="d" onclick="clickd()" > d</button>
+			</div>
+		</div>
+		<div class="result" id="three">
+			<p id="scoretxt">SCORE</p>
+			<p id="finalscore"></p>
+			<button id="new" onclick="showhome()" > New Game </button>
+		</div>
+	</div>
+	
+	<script src="jquery-3.3.1.min.js" charset="utf-8"></script>
+	<script src="index.js"></script>
+</body>
+</html>
