@@ -183,6 +183,9 @@ p#q{
         margin: 10px 0px;
         font-size: 40px;
     }
+    img{
+        height: 300px;
+    }
     .quiz{
         display: none;
         border: 2px solid white;
