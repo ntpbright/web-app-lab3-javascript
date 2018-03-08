@@ -164,3 +164,32 @@ p#q{
     color:white;
 }
 
+@media screen and (max-width: 1366px) {
+    p#time{
+        color:white;
+        margin: 10px 0px;
+    }
+    p#order{
+        margin-bottom: 10px;
+        border: 2px solid white;
+        color: white;
+        margin: 0% 25%;
+    }
+    p#image{
+        margin: 10px 0px;
+    }
+    p#q{
+        color:white;
+        margin: 10px 0px;
+        font-size: 40px;
+    }
+    .quiz{
+        display: none;
+        border: 2px solid white;
+        margin-bottom: 0px;
+        align-items: center;
+        text-align: center;
+        font-size: 40px;
+        width: 95%;
+    }
+}
